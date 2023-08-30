@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+}
+
+.cars__page {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.favs__page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.activeImage {
+  border: 3px solid #ff9f69;
+}
+
+.filter_component {
+  padding: 20px 30px 0 20px;
+  background-color: rgba(128, 128, 128, 0.103);
+  height: 900px;
+}
+.filter_header {
+  display: flex;
+  gap: 20px;
+}
+.mainRadio {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.mainRadio input {
+  display: none;
+}
+.mainRadio label {
+  font-size: 24px;
+  padding: 0 20px;
+}
+.mainRadioActive {
+  text-decoration: underline 3px #ff9f69;
+}
+.filter_btns {
+  display: flex;
+}
+.filter_btns button {
+  padding: 15px 30px;
+}
+.reset_btn {
+  border: 1px solid #ccc;
+}
+.apply_btn {
+  background-color: rgb(247, 51, 51);
+  color: white;
+  border: 0;
+}
+.fromToInputs {
+  display: flex;
+}
+.fromToInputs input {
+  width: 100px;
+  height: 30px;
+  padding: 10px 6px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 7px;
+}
+.fromToInputs h3 {
+  margin: 3px 10px 0 0;
+}
+
+.checkBtns button {
+  margin: 10px 10px 0;
+  padding: 5px;
+}
+
+.desCard {
+  position: relative;
+  color: white;
+}
+
+.desCard h3 {
+  position: absolute;
+  z-index: 99;
+  top: 10px;
+  left: 20px;
+}
+
+.desCard h5 {
+  position: absolute;
+  z-index: 99;
+  top: 140px;
+  left: 20px;
+}

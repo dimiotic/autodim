@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #292929;
+  align-items: center;
+}
+
+.logo {
+  padding: 15px 0 0 10px;
+}
+
+.navbar_btns {
+  display: flex;
+  margin-right: 20px;
+}
+.user_container {
+  display: flex;
+  align-items: center;
+}
+.user_container h2 {
+  margin-right: 20px;
+  color: white;
+}
+.favBtn img {
+  margin-top: 10px;
+  height: 32px;
+  width: 36px;
+  margin-right: 40px;
+}
+
+.login__btn {
+  background-color: #ff9f69;
+  padding: 15px 40px;
+  font-size: 24px;
+  border: none;
+  border-radius: 11px;
+}
